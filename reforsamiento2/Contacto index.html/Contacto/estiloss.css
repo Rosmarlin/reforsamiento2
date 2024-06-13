@@ -1,0 +1,25 @@
+h1{
+    color: #b14ca0;
+}
+
+a{
+    background-color: #f5afe9;
+}
+
+p{
+    text-align: center;
+    color: #b14ca0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgs{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+   width: 95%;
+   margin: auto;
+   grid-gap: 10px;
+   padding: 100px 0;
+   vertical-align: top;
+   height: 300px;
+   object-fit: cover;
+}
